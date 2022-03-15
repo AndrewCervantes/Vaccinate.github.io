@@ -1,0 +1,170 @@
+*{
+    font-family: 'Readex Pro', sans-serif;;
+}
+.titulo{
+    color: #3656D4;
+}
+
+
+.inicio{
+    background-image: url("../images/nurse.png");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h5{
+	margin-bottom: 1.75rem;
+	color: #6d7b93;
+	font-family: 'Readex Pro', sans-serif;
+  /*Propiedad para poner espacio etre letras*/
+
+  /*Propiedad para poner espacio etre parrafo*/
+  line-height: 2.625rem;
+  font-size: x-large;
+}
+
+.iconos{
+  color: #ffd012;
+  text-decoration: none;
+  background-color: #fffbcd;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #ffd012;
+  text-decoration: underline;
+}
+
+.schedule{
+  color: #3656D4;
+  text-decoration: none;
+  background-color: #eaf1fe;
+  border-radius: 10px;
+  padding-top: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+}
+
+.schedule:hover{
+  color: #3656D4;
+  text-decoration: none;
+  background-color: #eaf1fe;
+  border-radius: 10px;
+  padding-top: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+}
+
+
+.header .organizar{
+	color: #1f3e73;
+	font-family: 'Readex Pro', sans-serif;
+  /*Propiedad para poner espacio etre letras*/
+  letter-spacing: 0.1rem;
+  font-size: x-large;
+  margin-left: auto !important;
+}
+
+.center{
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.organizar{
+	color: #1f3e73;
+	font-family: 'Readex Pro', sans-serif;
+  font-size: x-large;
+  margin-left: auto !important;
+  padding-top: 1rem;
+
+}
+
+.iconosWhy{
+  color: #3656D4;
+  text-decoration: none;
+  background-color: #eaf1fe;
+  border-radius: 10px;
+  padding-top: .9rem;
+  padding-left: .9rem;
+  padding-right: .9rem;
+  padding-bottom: .9rem;
+}
+
+.preparation{
+  background-image: url("../images/nurse2.jpeg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size:contain;
+}
+
+.preparations{
+  text-align: justify;
+  color: #6d7b93;
+}
+
+.options{
+    padding-right: .2rem;
+    padding-left: .2rem;
+    border-radius: 5px;
+    overflow: hidden;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+
+.options:hover {
+	-webkit-transform: translate(0, -8px);
+	-moz-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	-o-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+	box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+.greyscale {
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
+
+
+
+/*******************/
+/*    EMERGENCY    */
+/*******************/
+.emergency{
+  background-image: url("../images/nurse3.jpeg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size:contain;
+}
+
+
+/*******************/
+/*    FOOTER    */
+/*******************/
+
+.footer{
+  background-color: #eaf1fe;
+  padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+ul{
+  list-style: none;
+  color:#6d7b93;
+}
+
+.contact p{
+  color: #6d7b93;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+.contacto{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
